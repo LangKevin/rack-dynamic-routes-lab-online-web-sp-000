@@ -1,4 +1,5 @@
-#  
+class Application
+end  
 #
 #   # @@songs = [Song.new("Sorry", "Justin Bieber"),
 #   #           Song.new("Hello","Adele")]
