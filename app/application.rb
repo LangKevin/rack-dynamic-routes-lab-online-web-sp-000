@@ -1,10 +1,10 @@
 class Application 
   # @@songs = [Song.new("Sorry", "Justin Bieber"),
   #           Song.new("Hello","Adele")]
-@@items = []
-  def call(env)
-    resp = Rack::Response.new
-    req = Rack::Request.new(env)
+  @@items = []
+def call(env)
+  resp = Rack::Response.new
+  req = Rack::Request.new(env)
  
     if req.path.match(/items/)
  
