@@ -2,7 +2,7 @@ class Application
  
   # @@songs = [Song.new("Sorry", "Justin Bieber"),
   #           Song.new("Hello","Adele")]
-@@items = [] 
+@@items = []
   def call(env)
     resp = Rack::Response.new
     req = Rack::Request.new(env)
