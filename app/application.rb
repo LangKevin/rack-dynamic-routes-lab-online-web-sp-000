@@ -13,6 +13,9 @@ class Application
       song = @@songs.find{|s| s.title == song_title}
  
       resp.write song.artist
+    else
+      resp.write "Route not found"
+      resp.status = 404
     end
  
     resp.finish
